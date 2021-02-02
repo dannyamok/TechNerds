@@ -17,3 +17,11 @@ main{
 ::-webkit-scrollbar-thumb:hover {
   background: #e0a6a6; 
 }
+
+h3{
+  padding: 1rem 0;
+}
+
+.rating span{
+  margin: 0.1rem;
+}

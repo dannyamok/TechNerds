@@ -1,12 +1,12 @@
-import React from 'react';
-import { Nav, Navbar, Container } from 'react-bootstrap';
+import React from 'react'
+import { Nav, Navbar, Container } from 'react-bootstrap'
 
 const Header = () => {
   return (
     <header>
       <Navbar bg='dark' variant='dark' expand='lg' collapseOnSelect>
         <Container>
-          <Navbar.Brand href='/'>TechNerd</Navbar.Brand>
+          <Navbar.Brand href='/'>TechNerds</Navbar.Brand>
           <Navbar.Toggle aria-controls='basic-navbar-nav' />
           <Navbar.Collapse id='basic-navbar-nav'>
             <Nav className='ml-auto'>
@@ -22,7 +22,7 @@ const Header = () => {
         </Container>
       </Navbar>
     </header>
-  );
-};
+  )
+}
 
-export default Header;
+export default Header
