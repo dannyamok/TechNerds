@@ -1,0 +1,14 @@
+{
+  "name": "technerds",
+  "version": "1.0.0",
+  "description": "TechNerd Webapp",
+  "main": "server.js",
+  "scripts": {
+    "start": "node backend/server"
+  },
+  "author": "Daniel",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
